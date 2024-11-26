@@ -1,3 +1,4 @@
+// Documentation: https://github.com/Alejandro-Mota-Cotton/Test/wiki/'User-Management'-module
 import { BrowserCheck, CheckGroup, Frequency } from "checkly/constructs";
 import * as path from "path";
 import { emailChannel } from "../checkly.config";
