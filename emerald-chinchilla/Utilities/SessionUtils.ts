@@ -1,7 +1,7 @@
 import { Page } from "@playwright/test";
 const USER = {
-  mail: "cottonapptest@cottonteam.com",
-  password: "i@Xu24#zJsK",
+  mail: "",
+  password: "",
 };
 
 class SessionUtils {
