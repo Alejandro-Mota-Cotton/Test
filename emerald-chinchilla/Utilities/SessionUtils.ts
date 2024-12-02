@@ -1,7 +1,7 @@
 import { Page } from "@playwright/test";
 const USER = {
-  mail: "",
-  password: "",
+  mail: process.env.TESTER_MAIL,
+  password: process.env.TESTER_PASSWORD,
 };
 
 class SessionUtils {

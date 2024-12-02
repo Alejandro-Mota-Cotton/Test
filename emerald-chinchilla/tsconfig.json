@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Usa las características modernas de ECMAScript
+    "module": "CommonJS", // Compatible con Node.js
+    "lib": ["DOM", "ESNext"], // Incluye el DOM y características modernas de ES
+    "strict": true, // Activa comprobaciones estrictas para TypeScript
+    "esModuleInterop": true, // Facilita la interoperabilidad entre ESModules y CommonJS
+    "moduleResolution": "node", // Usa el sistema de resolución de módulos de Node.js
+    "outDir": "./dist", // Carpeta para los archivos compilados
+    "rootDir": ".", // Raíz del proyecto
+    "types": ["node", "@playwright/test", "checkly"], // Incluye los tipos necesarios
+    "resolveJsonModule": true, // Permite importar archivos JSON
+    "skipLibCheck": true // Omite la verificación de tipos en las bibliotecas
+  },
+  "include": ["**/*.ts"], // Incluye todos los archivos .ts
+  "exclude": ["node_modules", "dist"] // Excluye las carpetas innecesarias
+}
